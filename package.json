@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "parcel src/client/index.html",
+    "build": "parcel build src/client/index.html",
+    "start": "node src/server/index",
+    "start:prod": "NODE_ENV=production node src/server/index"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0",
+    "parcel": "^1.11.0",
+    "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
