@@ -1,6 +1,12 @@
 /** @jsx h */
 import { h, render, Component } from 'preact';
 
+const Header = () => (
+  <header>
+    <h1>This is a headers</h1>
+  </header>
+);
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -50,6 +56,7 @@ class App extends Component {
 
     return (
       <div>
+        <Header />
         {nameThing}
         <form onSubmit={this.onSubmit}>
           <label htmlFor="name">
